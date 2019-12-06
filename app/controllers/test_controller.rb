@@ -1,6 +1,6 @@
 class TestController < ApplicationController
     def go
-        tests = tests.all
+        tests = test.all
         @read = tests.sample
     end
 end
